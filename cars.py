@@ -1,3 +1,6 @@
+# import cars_function
+from cars_function import *
+
 cars = ['audi', 'bmw', 'subaru', 'toyota']
 
 for car in cars:
@@ -24,3 +27,9 @@ print('bmw' in cars and 'subaru' in cars)
 
 print("Is 'nissan' or 'honda' in cars? I guess False")
 print('nissan' in cars or 'honda' in cars)
+
+
+
+
+my_car = make_car('Nissan', 'Almera', engine=1.5, color='white')
+print(my_car)

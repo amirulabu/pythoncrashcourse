@@ -14,3 +14,11 @@ for order in sandwich_orders:
 
 for order in finished_sandwiches:
 	print(order)
+
+print('exercise 8-12')
+
+def sandwich_type(*types):
+	for type in types:
+		print(type)
+
+sandwich_type('Tuna','Chicken Breast', 'Meatball')
