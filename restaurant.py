@@ -34,3 +34,15 @@ print(restaurant.number_served)
 
 restaurant.increment_number_served(10)
 print(restaurant.number_served)
+
+class IceCreamStand(Restaurant):
+
+	def __init__(self,restaurant_name, cuisine_type, flavors):
+		super().__init__(restaurant_name, cuisine_type)
+		self.flavors = flavors
+
+my_ice_cream_stand = IceCreamStand('Baskin Robins', 'Ice Cream', ['vanilla', 'chocolate'])
+
+print(my_ice_cream_stand.restaurant_name)
+print(my_ice_cream_stand.cuisine_type)
+print(my_ice_cream_stand.flavors)
